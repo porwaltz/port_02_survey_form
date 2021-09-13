@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="01_resized.jpg">
+    <div id="main">
+        <header>
+            <h1 id="title">Pokemon trainer registry.</h1>
+            <p id="description">Fill the form to start your pokemon journey</p>
+        </header>
+        <section>
+            <form action="" id="survey-form">
+                <label for="name" id="name-label">Name:</label>
+                <input class="simple" type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+                <label for="email" id="email-label">E-mail:</label>
+                <input class="simple" type="email" id="email" name="email" placeholder="Enter your e-mail" required><br><br>
+                <label for="number" id="number-label">Age:</label>
+                <input class="simple" type="number" id="number" name="number" placeholder="Enter your age" min="16" max="100"><br><br>
+                <label for="dropdown">Choose your first pokemon:</label>
+                <select class="simple" id="dropdown" name="dropdown">
+                    <option value="Bulbasaur">Bulbasaur</option>
+                    <option value="Charmander">Charmander</option>
+                    <option value="Squirtle">Squirtle</option>
+                </select><br>
+                
+                <p>Choose your favourite path:</p>
+                <div>
+                    <input type="radio" id="pokedex" name="path" value="pokedex">
+                    <label for="pokedex">Fill a pokedex</label><br>
+                    <input type="radio" id="league" name="path" value="league">
+                    <label for="league">Win the pokemon league</label><br>
+                    <input type="radio" id="other" name="path" value="other">
+                    <label for="other">Other</label><br>
+                </div>
+                
+                <div>
+                    <p>Select regions you want to travel:</p>
+                    <input type="checkbox" id="1st" name="1st" value="Kanto">
+                    <label for="1st">Kanto</label><br>
+                    <input type="checkbox" id="2nd" name="2nd" value="Johto">
+                    <label for="2nd">Johto</label><br>
+                    <input type="checkbox" id="3rd" name="3rd" value="Hoenn">
+                    <label for="3rd">Hoenn</label><br>
+                </div><br>
+                <p>Any thoughts about your first journey?</p>
+                <textarea class="simple" name="ideas" id="user-thoughts" cols="50" rows="10" placeholder="Add your comment here"></textarea>
+                <br>
+                <input class="simple" type="submit" id="submit" value="Submit">
+            </form>
+        </section>
+    </div>
+</body>
+</html>

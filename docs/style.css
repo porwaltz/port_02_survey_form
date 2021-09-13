@@ -1,0 +1,54 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+img{
+    position: fixed;
+    opacity: 0.2;
+}
+header{
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+section{
+    margin-top: auto;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    background-color: steelblue;
+    color: whitesmoke;
+    opacity: 0.9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+form{
+
+    width: 70%;
+    /* background-color: lightblue; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: left;
+}
+
+#submit{
+    background-color: o;
+    color: whitesmoke;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
